@@ -1,6 +1,6 @@
 from textsummerizer.config.configuration import ConfigurationManager
 from textsummerizer.components.data_ingetion import DataIngestion
-from textsummerizer.logging import logger
+
 
 class DataIngetionTrainingPipeline:
     def __init__(self):
