@@ -1,8 +1,3 @@
-"""
- GitHub Actions workflow file designed to automate the continuous integration (CI) and continuous
- delivery (CD) processes for a project
-"""
-
 name: workflow
 
 on:
