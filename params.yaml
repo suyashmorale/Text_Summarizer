@@ -1,1 +1,12 @@
-key: value
+TrainingArguments:
+  num_train_epochs: 1
+  per_device_train_batch_size: 1  # Adjust based on GPU memory
+  per_device_eval_batch_size: 1   # Adjust based on GPU memory
+  warmup_steps: 500
+  weight_decay: 0.01
+  logging_steps: 10             # Adjust based on your preference
+  evaluation_strategy: "steps"
+  eval_steps: 500
+  save_steps: 500             # Save more frequently for checkpointing
+  gradient_accumulation_steps: 16 
+
