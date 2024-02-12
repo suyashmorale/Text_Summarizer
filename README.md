@@ -27,12 +27,12 @@
     5. launch your docker image in EC2
 
     #Policy
-    1. AmazonEC2ContainerRegistryFUllExcess
+    1. AmazonEC2ContainerRegistryFullAccess
     2. AmazonEC2FullAccess
 
 3. Create ECR repo to store/save docker image
     #ECR url
-    -url : 090334662463.dkr.ecr.ap-northeast-1.amazonaws.com/text_summarizer
+    -url : 090334662463.dkr.ecr.ap-south-1.amazonaws.com/text_summarizer
 
 4. Create EC2 machine (Ubuntu)
 5. Open EC2 and Install docker in EC2 Machine:
@@ -53,7 +53,7 @@
 
     AWS_ACCESS_KEY_ID=
     AWS_SECRET_ACCESS_KEY=
-    AWS_REGION = ap-northeast-1
+    AWS_REGION = ap-south-1
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
     ECR_REPOSITORY_NAME = text_summarizer
 
